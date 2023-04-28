@@ -45,9 +45,9 @@
 		</div>
 	</div>
 	<!-- HERO 2 -->
-	<div class="hero min-h-screen bg-base-200">
-		<div class="hero-overlay bg-opacity-60 container mx-auto py-9 md:py-12 lg:py-24">
-			<div class="hero-content flex-col lg:flex-row">
+	<div class="bg-gray-500">
+		<div class="hero min-h-screen bg-gradient-to-l from-slate-700">
+			<div class="hero-content flex-col lg:flex-row ">
 				<div class="lg:w-4/12 mt-6 md:mt-8 lg:mt-0 px-7">
 					<div class="relative w-full h-full ml-10">
 						<img src={imgUrl2} alt="home pic" width="427" class="rounded-xl   hover:scale-105 " />
@@ -60,23 +60,17 @@
 								<h3 class="text-3xl md:text-5xl xl:text-4xl font-semibold text-gray-100 ">
 									COMO A PSICOTERAPIA PODE TE AJUDAR
 								</h3>
-								<!-- <div class="mt-2">
-								<span class="inline-block w-40 h-1 rounded-full bg-green-500" />
-								<span class="inline-block w-3 h-1 ml-1 rounded-full bg-green-500" />
-								<span class="inline-block w-1 h-1 ml-1 rounded-full bg-green-500" />
-							</div> -->
 								<p
 									class="   md:w-7/12 lg:w-11/12 xl:w-10/12 mt-4 lg:mt-5 text-base leading-normal text-gray-200 font-semibold"
 								>
 									A vida nos traz desafio e necessidade de mudança. Doenças, perdas, conflitos
 									familiares, a chegada de um filho, casamento ou dificuldades na carreira exigem
-									redirecionamento. <br><br>
-									A psicoterapia promove o autoconhecimento, o desenvolvimento de
-									habilidades de resolução de problemas e a capacidade de tomar decisões. Além
-									disso, leva a melhora nas relações familiares, conjugais e socials. É o caminho
-									indicado com bases científicas para o alívio de sintomas como ansiedade,
-									depressão, fobias, compulsão e outros transtornos mentais ou de personalidade que
-									levam ao sofrimento psíquico.
+									redirecionamento. <br /><br />
+									A psicoterapia promove o autoconhecimento, o desenvolvimento de habilidades de resolução
+									de problemas e a capacidade de tomar decisões. Além disso, leva a melhora nas relações
+									familiares, conjugais e socials. É o caminho indicado com bases científicas para o
+									alívio de sintomas como ansiedade, depressão, fobias, compulsão e outros transtornos
+									mentais ou de personalidade que levam ao sofrimento psíquico.
 								</p>
 								<div class="py-9 mt-5 flex-auto">
 									<Whatsapp />
