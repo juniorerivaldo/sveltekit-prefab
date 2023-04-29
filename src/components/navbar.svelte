@@ -3,6 +3,8 @@
 	import Whatsapp from './whatsapp.svelte';
 	import { onMount } from 'svelte';
 	import { themeChange } from 'theme-change';
+	import imgUrl from '../assets/favicon.svg';
+
 	// NOTE: the element that is using one of the theme attributes must be in the DOM on mount
 	onMount(() => {
 		themeChange(false);
@@ -37,7 +39,7 @@
 				<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
 					<a href="/">Home</a>
 				</li>
-				<li aria-current={$page.url.pathname === '/sobre' ? 'page' : undefined}>
+				<li aria-current={$page.url.pathname.startsWith('/sobre') ? 'page' : undefined}>
 					<a href="/sobre">Sobre</a>
 				</li>
 				<li aria-current={$page.url.pathname.startsWith('/servicos') ? 'page' : undefined}>
@@ -49,8 +51,7 @@
 			</ul>
 		</div>
 		<a href="/">
-			<!-- <img class="mask mask-circle" src={imgUrl} width="50" /> -->
-			<p>teste</p>
+			<img class="mask mask-circle" src={imgUrl} width="50" />
 		</a>
 	</div>
 

@@ -1,5 +1,5 @@
 <script>
-	import imgUrl from '../assets/primaria.png';
+	import imgUrl from '../assets/profile1.png';
 	import imgUrl2 from '../assets/segunda.png';
 	import Whatsapp from '../components/whatsapp.svelte';
 </script>
@@ -27,7 +27,7 @@
 							<p
 								class="   md:w-7/12 lg:w-11/12 xl:w-10/12 mt-4 lg:mt-5 text-base leading-normal text-gray-600 font-semibold"
 							>
-								Olá, eu sou João Souza, psícologo clínico. <br />
+								Olá, eu sou Elizabeth Marques, psícologa clínica. <br />
 								Vamos conversar ?
 							</p>
 							<div class="py-9 mt-5 flex-auto">
@@ -35,9 +35,9 @@
 							</div>
 						</div>
 					</div>
-					<div class="lg:w-4/12 mt-6 md:mt-8 lg:mt-0 px-7">
+					<div class="lg:w-8/12 mt-6 md:mt-8 lg:mt-0 px-7">
 						<div class="relative w-full h-full ml-10">
-							<img src={imgUrl} alt="home pic" width="427" class="rounded-xl   hover:scale-105 " />
+							<img src={imgUrl} alt="home pic" width="427" class="rounded-xl  hover:scale-105" />
 						</div>
 					</div>
 				</div>
@@ -45,10 +45,10 @@
 		</div>
 	</div>
 	<!-- HERO 2 -->
-	<div class="bg-gray-500">
-		<div class="hero min-h-screen bg-gradient-to-l from-slate-700">
+	<!-- <div class="bg-gray-500"> -->
+		<div class="hero min-h-screen bg-gradient-to-l from-base-200 to-secondary">
 			<div class="hero-content flex-col lg:flex-row ">
-				<div class="lg:w-4/12 mt-6 md:mt-8 lg:mt-0 px-7">
+				<div class="lg:w-6/12 mt-6 md:mt-8 lg:mt-0 px-7">
 					<div class="relative w-full h-full ml-10">
 						<img src={imgUrl2} alt="home pic" width="427" class="rounded-xl   hover:scale-105 " />
 					</div>
@@ -57,11 +57,11 @@
 					<div class="flex flex-col lg:flex-row justify-center items-strech mx-4">
 						<div class="lg:w-6/12 flex justify-center items-center">
 							<div>
-								<h3 class="text-3xl md:text-5xl xl:text-4xl font-semibold text-gray-100 ">
+								<h3 class="text-3xl md:text-5xl xl:text-4xl font-semibold ">
 									COMO A PSICOTERAPIA PODE TE AJUDAR
 								</h3>
 								<p
-									class="   md:w-7/12 lg:w-11/12 xl:w-10/12 mt-4 lg:mt-5 text-base leading-normal text-gray-200 font-semibold"
+									class="   md:w-7/12 lg:w-11/12 xl:w-10/12 mt-4 lg:mt-5 text-base leading-normal font-semibold"
 								>
 									A vida nos traz desafio e necessidade de mudança. Doenças, perdas, conflitos
 									familiares, a chegada de um filho, casamento ou dificuldades na carreira exigem
@@ -81,5 +81,5 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	<!-- </div> -->
 </main>
