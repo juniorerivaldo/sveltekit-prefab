@@ -25,7 +25,7 @@
 								<span class="inline-block w-1 h-1 ml-1 rounded-full bg-green-500" />
 							</div>
 							<p
-								class="   md:w-7/12 lg:w-11/12 xl:w-10/12 mt-4 lg:mt-5 text-base leading-normal text-gray-600 font-semibold"
+								class="   md:w-7/12 lg:w-11/12 xl:w-10/12 mt-4 lg:mt-5 text-base leading-normal font-semibold"
 							>
 								Olá, eu sou Elizabeth Marques, psícologa clínica. <br />
 								Vamos conversar ?
@@ -37,7 +37,7 @@
 					</div>
 					<div class="lg:w-8/12 mt-6 md:mt-8 lg:mt-0 px-7">
 						<div class="relative w-full h-full ml-10">
-							<img src={imgUrl} alt="home pic" width="427" class="rounded-xl  hover:scale-105" />
+							<img src={imgUrl} alt="home pic" width="427" class="rounded-xl hover:scale-105" />
 						</div>
 					</div>
 				</div>

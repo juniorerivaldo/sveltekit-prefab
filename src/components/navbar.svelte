@@ -42,8 +42,8 @@
 				<li aria-current={$page.url.pathname.startsWith('/sobre') ? 'page' : undefined}>
 					<a href="/sobre">Sobre</a>
 				</li>
-				<li aria-current={$page.url.pathname.startsWith('/servicos') ? 'page' : undefined}>
-					<a href="/servicos">Serviços</a>
+				<li aria-current={$page.url.pathname.startsWith('/consulta') ? 'page' : undefined}>
+					<a href="/consulta">Consulta</a>
 				</li>
 				<li aria-current={$page.url.pathname.startsWith('/contato') ? 'page' : undefined}>
 					<a href="/contato">Contato</a>
@@ -63,8 +63,8 @@
 			<li aria-current={$page.url.pathname === '/sobre' ? 'page' : undefined}>
 				<a href="/sobre">Sobre</a>
 			</li>
-			<li aria-current={$page.url.pathname.startsWith('/servicos') ? 'page' : undefined}>
-				<a href="/servicos">Serviços</a>
+			<li aria-current={$page.url.pathname.startsWith('/consulta') ? 'page' : undefined}>
+				<a href="/consulta">Consulta</a>
 			</li>
 			<li aria-current={$page.url.pathname.startsWith('/contato') ? 'page' : undefined}>
 				<a href="/contato">Contato</a>
