@@ -1,15 +1,29 @@
 <script>
 	import Whatsapp from '../../components/whatsapp.svelte';
 </script>
+<svelte:head>
+	<title
+		>Consulta</title
+	>
+	<meta
+		name="Consulta"
+		content="Com vasta experiência em desenvolvimento de páginas e sistemas com tecnologias atuais, este especialista oferece projetos personalizados de Landing Page, Site Institucional e Blog voltados para profissionais da saúde e outras ocupações. Saiba mais!"
+	/>
+</svelte:head>
 
 <div class="hero min-h-screen">
 	<div class="hero-content flex-col lg:flex-row">
 		<div class="container mx-auto py-9 md:py-12 lg:py-24">
 			<div class="flex justify-center items-center">
 				<div class="py-8">
-					<h3 class="text-4xl md:text-5xl xl:text-4xl font-semibold ">
+					<h3 class="text-4xl md:text-5xl xl:text-4xl font-semibold text-center">
 						Como funcionam as consultas.
 					</h3>
+					<div class="pt-6">
+						<p class="text-base leading-normal font-semibold">
+							Agende agora mesmo uma consulta e comece a cuidar da sua saúde mental!
+						</p>
+					</div>
 					<div class="mt-2 flex justify-center py-5">
 						<span class="inline-block w-40 h-1 rounded-full bg-green-500" />
 						<span class="inline-block w-3 h-1 ml-1 rounded-full bg-green-500" />
@@ -19,9 +33,9 @@
 			</div>
 			<div class="grid grid-cols-1 md:lg:xl:grid-cols-3 group  ">
 				<div
-					class="p-10 flex flex-col items-center text-center group  hover:bg-base-300 cursor-pointer"
+					class="p-10 flex flex-col items-center text-center group  hover:bg-base-300 cursor-pointer hover:scale-105"
 				>
-					<span class="p-5 rounded-full bg-red-500  shadow-lg shadow-red-200"
+					<span class="p-5 rounded-full bg-red-500  shadow-md shadow-red-200"
 						><svg
 							fill="none"
 							stroke="currentColor"
@@ -38,14 +52,14 @@
 							/>
 						</svg></span
 					>
-					<p class="text-xl font-medium mt-3">Seções</p>
-					<p class="mt-2 text-sm">Seções com 50 minutos de duração.</p>
+					<p class="text-xl font-medium mt-3">Sessões</p>
+					<p class="mt-2 font-semibold">Sessões com 50 minutos de duração.</p>
 				</div>
 
 				<div
-					class="p-10 flex flex-col items-center text-center group  hover:bg-base-300 cursor-pointer"
+					class="p-10 flex flex-col items-center text-center group  hover:bg-base-300 cursor-pointer hover:scale-105"
 				>
-					<span class="p-5 rounded-full bg-orange-500 text-white shadow-lg shadow-orange-200"
+					<span class="p-5 rounded-full bg-orange-500 text-white shadow-md shadow-orange-200"
 						><svg
 							fill="none"
 							class="h-10 w-10"
@@ -63,12 +77,12 @@
 						</svg></span
 					>
 					<p class="text-xl font-medium mt-3">Frequência</p>
-					<p class="mt-2 text-sm ">Seções semanais, quinzenais ou mensais.</p>
+					<p class="mt-2 font-semibold ">Sessões semanais, quinzenais ou mensais.</p>
 				</div>
 				<div
-					class="p-10 flex flex-col items-center text-center group  hover:bg-base-300 cursor-pointer"
+					class="p-10 flex flex-col items-center text-center group  hover:bg-base-300 cursor-pointer hover:scale-105"
 				>
-					<span class="p-5 rounded-full bg-yellow-500  shadow-lg shadow-yellow-200"
+					<span class="p-5 rounded-full bg-yellow-500  shadow-md shadow-yellow-200"
 						><svg
 							fill="none"
 							class="h-10 w-10"
@@ -91,10 +105,13 @@
 						</svg></span
 					>
 					<p class="text-xl font-medium  mt-3">Local</p>
-					<p class="mt-2 text-sm ">
-						Atendimento em consultório ou Online via (Skype, Whatsapp ou Meet).
+					<p class="mt-2 font-semibold">
+						Atendimento em consultório ou Online via (Skype, Whatsapp ou GoogleMeet).
 					</p>
 				</div>
+			</div>
+			<div class="py-9 mt-5 flex justify-center items-center">
+				<Whatsapp />
 			</div>
 		</div>
 	</div>

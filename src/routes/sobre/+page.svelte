@@ -4,7 +4,7 @@
 </script>
 <svelte:head>
 	<title>Sobre</title>
-	<meta name="description" content="Svelte demo app" />
+	<meta name="Sobre" content="Pagina sobre" />
 </svelte:head>
 <main>
 	<div class="hero min-h-screen bg-gradient-to-r from-base-200 to-secondary">

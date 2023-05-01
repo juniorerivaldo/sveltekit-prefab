@@ -6,7 +6,7 @@
 
 <svelte:head>
 	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<meta name="description" content="PSICO INSTITUCIONAL" />
 </svelte:head>
 <main>
 	<!-- HERO 1 -->
@@ -36,7 +36,7 @@
 						</div>
 					</div>
 					<div class="lg:w-8/12 mt-6 md:mt-8 lg:mt-0 px-7">
-						<div class="relative w-full h-full ml-10">
+						<div class="relative w-full h-full ml-10 lg:justify-center">
 							<img src={imgUrl} alt="home pic" width="427" class="rounded-xl hover:scale-105" />
 						</div>
 					</div>

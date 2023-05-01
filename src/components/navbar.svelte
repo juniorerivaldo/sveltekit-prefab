@@ -3,7 +3,7 @@
 	import Whatsapp from './whatsapp.svelte';
 	import { onMount } from 'svelte';
 	import { themeChange } from 'theme-change';
-	import imgUrl from '../assets/favicon.svg';
+	import imgUrl from '../assets/favicon.png';
 
 	// NOTE: the element that is using one of the theme attributes must be in the DOM on mount
 	onMount(() => {
